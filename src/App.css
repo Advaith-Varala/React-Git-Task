@@ -1,7 +1,21 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
 }
-
+table,tr,th,td{
+  text-align: center;
+  border: 2px solid black;
+  border-collapse: collapse;
+  font-weight: 600;
+}
+input{
+    margin: 5px;
+    width: 50%;
+}
+.container{
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px 3px black;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
