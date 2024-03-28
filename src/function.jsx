@@ -15,6 +15,7 @@ function Fcomponent(params) {
             <div className="container"style={{ padding: "35px", display:"flex",flexDirection:"column",border:"1px solid black",width:"400px",margin:"25px",justifyContent:"center",backgroundColor:"skyblue"}}>
                 <h1>FUNCTION COMPONENT</h1>
                 <Image />
+                <hr></hr>
                 
                 First Name: <input type="text" placeholder="Enter you Fname"  width={"20%"}></input>
                 Last Name: <input type="text" placeholder="Enter you Fname"></input>
